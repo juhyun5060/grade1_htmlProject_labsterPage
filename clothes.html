@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel= "stylesheet" href="css/clothes.css">
+        <script type="text/javascript" src="js/clothes.js"></script>
+        <title>옷입히기 게임</title>
+    </head>
+<body>
+    <center>
+        <br><br><br>
+        <font size=8 color=red>옷 입히기 게임</font><p>
+        <font size=5>"패고"인 터보가 옷 코디를 원하고 있습니다!<br>
+                터보에게 가장 어울리는 옷을 찾아 드래그 하여 터보 몸쪽에 가져다두세요!<br>
+                옷을 잘못입혔을 때 오른쪽 아래에 있는 <font size=5 color=red>'다시 하기'</font> 버튼을 눌러주세요<br><br><br>
+        </font><br><br>
+        <img src="image/tubo2.png" width=150>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
+        <img id="drag1" src="image/onepiece.png" draggable="true" ondragstart="drag(event)" width=130>
+        <img id="drag2" src="image/hip.png" draggable="true" ondragstart="drag(event)" height=250>
+        <img id="drag3" src="image/hanbok.png" draggable="true" ondragstart="drag(event)" height=250>
+        <img id="drag4" src="image/ironman.png" draggable="true" ondragstart="drag(event)" height=250>
+        <img id="drag5" src="image/thunderman.png" draggable="true" ondragstart="drag(event)" height=250>
+        <br>
+
+        <p align=right><button class=btn onclick="window.open('clothes.html','bottom','resizable=yes')"><font size=5>다시하기</font></button></p>
+    </center>
+</body>
+</html>

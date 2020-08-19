@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean'); 
+font { 
+    font-family: 'Black Han Sans', sans-serif;
+}
+body{
+    background-color: lightcyan;
+}
+a { 
+    text-decoration:none;
+}
+a:hover { 
+    text-decoration:none !important; cursor:pointer;
+}
+a:visited {
+    text-decoration: underline; 
+    color: black;
+}
+a:active {
+    text-decoration: underline; 
+    color: black;
+}
